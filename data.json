@@ -1,0 +1,19 @@
+[{
+  "type": "video",
+  "title": "HongKong1 | OFFICIAL MV | Nguyễn Trọng Tài x San Ji x Double X",
+  "sources": [
+    {
+      "src": "live/section.m3u8",
+      "type": "M3U8",
+      "size": 1080
+    }
+  ],
+  "tracks": [
+    {
+      "kind": "subtitles",
+      "label": "English",
+      "srclang": "EN",
+      "src": "live/english.vtt"
+    }
+  ]
+}, "poster.jpg", "mainvideo"]

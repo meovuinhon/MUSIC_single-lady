@@ -1,0 +1,79 @@
+:root {
+  --opacity: 0.4;
+  --main-text-bg: rgba(0, 0, 0, var(--opacity));
+}
+
+body {
+  margin: 0;
+}
+
+.main-palyer {
+  width: 90%;
+  max-width: 800px;
+  margin: auto;
+  color: white;
+}
+
+html {
+  background: url("poster.jpg") no-repeat center center fixed;
+  background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h3 {
+  font-family: "Google Sans";
+  background-color: var(--main-text-bg);
+  padding: .84em;
+  border-radius: 5px;
+  text-align: center;
+  /* width: auto; */
+  width: fit-content;
+  margin: .84em auto
+}
+
+h3 a {
+  color: #12dd12;
+}
+
+.yt-ctn {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.yt-ctn::after {
+  padding-top: 56.25%;
+  display: block;
+  content: '';
+}
+
+.yt-ctn iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+header {
+  width: 100% - 2em;
+  background-color: var(--main-text-bg);
+  text-align: center;
+  padding: .84em;
+  font-size: 1.84em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+}
+header, h3 {
+  backdrop-filter: blur(8.4px);
+}
